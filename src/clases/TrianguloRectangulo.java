@@ -41,6 +41,14 @@ public class TrianguloRectangulo {
 	}
 	
 	/**
+	 * Metodo para calcular el perimetro del triangulo
+	 * @return el perimetro en metros
+	 */
+	public double perimetro() {
+		return this.a + this.b + this.c;
+	}
+	
+	/**
 	 * Metodo para calcular la hipotenusa del triangulo
 	 * @return la longitud de la hipotenusa en metros
 	 */
